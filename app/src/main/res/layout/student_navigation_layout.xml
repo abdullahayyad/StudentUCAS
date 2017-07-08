@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    >
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/week_view"
+        android:id="@+id/week_view"
+        android:drawablePadding="-40dp"
+        android:drawableRight="@drawable/ic_week_day"
+
+        android:layout_weight="0.5"
+        android:textColor="#FFF"
+        android:background="@drawable/selector_button_blue"
+        android:layout_margin="3dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/event_day"
+            android:id="@+id/event_day"
+            android:layout_weight="0.5"
+            android:drawableTop="@drawable/ic_event_day"
+            android:textColor="#FFF"
+            android:background="@drawable/selector_button_blue"
+            android:layout_margin="3dp"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/academic_calender"
+            android:drawableTop="@drawable/ic_academic_calendar"
+            android:id="@+id/academic_calender"
+            android:layout_weight="0.5"
+            android:textColor="#FFF"
+            android:background="@drawable/selector_button_blue"
+            android:layout_margin="3dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/mark_student"
+            android:id="@+id/mark_student"
+            android:drawableTop="@drawable/ic_mark"
+            android:layout_weight="0.5"
+            android:textColor="#FFF"
+            android:background="@drawable/selector_button_blue"
+            android:layout_margin="3dp"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/exam_student"
+            android:id="@+id/exam_student"
+            android:layout_weight="0.5"
+            android:textColor="#FFF"
+            android:drawableTop="@drawable/ic_exam_day"
+            android:background="@drawable/selector_button_blue"
+            android:layout_margin="3dp"
+            />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/financial_student"
+            android:id="@+id/finanical_view"
+            android:drawablePadding="-20dp"
+            android:drawableTop="@drawable/ic_financial"
+
+            android:layout_weight="0.5"
+            android:textColor="#FFF"
+            android:background="@drawable/selector_button_blue"
+            android:layout_margin="3dp"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/collage_news"
+            android:id="@+id/collage_news"
+            android:layout_weight="0.5"
+            android:textColor="#FFF"
+            android:drawableTop="@drawable/ic_news"
+            android:background="@drawable/selector_button_blue"
+            android:layout_margin="3dp"
+
+
+            />
+    </LinearLayout>
+</LinearLayout>

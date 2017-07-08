@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!-- A photo on the left. We'll just use the launcher icon. -->
+
+        <ps.edu.ucas.studentportal.view.MyLinearLayout
+            android:id="@+id/myLinear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Material.Drawable.Ripple.Wave.Light"
+            android:focusable="false"
+
+            >
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp">
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background ="@drawable/shape_circle"
+            android:id="@+id/myHour"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:text="12"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginLeft="16dp"
+            android:textColor="#fff"
+             ></TextView>
+
+
+            <!-- The age, in the bottom -->
+            <TextView
+                android:id="@+id/exam_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/myHour"
+
+                android:text="Time"
+                />
+
+
+
+
+
+        <!-- The person name, on top -->
+        <TextView
+            android:id="@+id/exam_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/academic_date"
+            android:layout_toLeftOf="@+id/myHour"
+            android:layout_below="@+id/exam_time"
+            android:gravity="right"
+            android:textSize="20sp"
+            android:text="Courses"
+             />
+
+
+            <!-- The age, in the bottom -->
+            <TextView
+                android:id="@+id/exam_hall_lbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_toLeftOf="@+id/myHour"
+                android:layout_below="@+id/exam_name"
+                android:text=" قاعة : "
+                />
+
+
+
+        <!-- The age, in the bottom -->
+        <TextView
+            android:id="@+id/exam_hall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_toLeftOf="@+id/exam_hall_lbl"
+            android:layout_below="@+id/exam_name"
+            android:text="hall"
+           />
+
+            <LinearLayout
+                android:id="@+id/academic_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="0dp"
+                android:orientation="vertical"
+                android:layout_marginRight="16dp"
+                >
+                <TextView
+                    android:id="@+id/day_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="36sp"
+                    android:text="15"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:id="@+id/month"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="نوفمبر"
+                   />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+</ps.edu.ucas.studentportal.view.MyLinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

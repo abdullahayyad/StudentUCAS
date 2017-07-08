@@ -1,0 +1,280 @@
+<resources>
+    <string name="app_name">
+        iUCAS
+    </string>
+
+    <string name="loginActivity">تسجيل الدخول</string>
+    <string name="next">التالي</string>
+    <string name="close">إنهاء</string>
+
+
+
+
+
+    <string-array name="days">
+        <item>
+            السبت
+        </item>
+        <item>
+            الأحد
+        </item>
+        <item>
+            الإثنين
+        </item>
+        <item>
+            الثلاثاء
+        </item>
+        <item>
+            الأربعاء
+        </item>
+        <item>
+            الخميس
+        </item>
+
+    </string-array>
+
+        <string name="event_day">الجدول اليومي</string>
+        <string name="week_view">الجدول الأسبوعي</string>
+        <string name="academic_calender">التقويم الأكاديمي</string>
+        <string name="marks">كشف الدرجات</string>
+        <string name="exam_day">جدول الإمتحانات</string>
+        <string name="financial" >كشف المالي</string>
+
+    <string-array name="collage_news_type">
+        <item>آخر العناوين</item>
+        <item>أخبار الكلية</item>
+        <item>إعلانات الكلية</item>
+    </string-array>
+
+
+    <integer-array name="std_nab_icon">
+        <item>@drawable/ic_logo</item>
+        <item>@drawable/ic_logo</item>
+    </integer-array>
+
+
+
+    <string name="ucas_portal">خدمات الطلبة</string>
+    <string name="title_activity_student_activity_v2">StudentActivityV2</string>
+
+    <string name="no_internet_connection">لايوجد إتصال إنترنت</string>
+
+    <string name="retry">إعادة الإتصال</string>
+
+
+
+    <string name="mark_student">كشف الدرجات       </string>
+
+    <string name="exam_student">
+جدول الإمتحانات
+       </string>
+
+
+
+    <string-array name="month_name">
+        <item>يناير</item>
+        <item>فبراير</item>
+        <item>مارس</item>
+        <item>أبريل</item>
+        <item>يونيو</item>
+        <item>يوليو</item>
+        <item>أغسطس</item>
+        <item>سبتمبر</item>
+        <item>أكتوبر</item>
+        <item>نوفمبر</item>
+        <item>ديسمبر</item>
+
+
+    </string-array>
+
+
+
+
+
+    <string name="calculated_hundred">تم احتساب  الدرجة من 100</string>
+    <string name="withdrawal">تم الإنسحاب من المساق</string>
+    <string name="patchy">غير مكتمل</string>
+    <string name="payment_of_fees">لم يتم دفع رسوم المساق</string>
+    <string name="off_plan"> المساق خارج الخطة وعلامته لا تدخل في حساب المعدل التراكمي وعدد ساعات الدراسة التراكمية</string>
+    <string name="equation">تم معادلة المساق</string>
+
+    <string name="replay">تم إعادة المساق</string>
+    <string name="title_activity_course_detail">CourseDetail</string>
+
+
+
+
+    <string name="invalid_grant">خطأفي اسم المستخدم أو كلمة المرور</string>
+    <string name="invalid_clint_id_secret">
+        خطأ في مفتاح المصادقة يرجى مراجعة مركز الحاسوب
+    </string>
+
+
+    <string name="time_exam_romain">يبدأ الامتحان بعد أقل من  </string>
+    <string name="time_event_romain">يبدأ المحاضرة بعد أقل من  </string>
+
+    <string name="agree">موافق</string>
+    <string name="ok">نعم</string>
+    <string name="no">لا</string>
+
+    <string name="error_login_title">خطأ في التسجيل</string>
+    <string name="message_event_academic_calender_day_3">
+        باقي ثلاثة أيام على
+        </string>
+    <string name="message_event_academic_calender_day_7">
+        باقي سبعة أيام على
+        </string>
+
+
+
+    <string name="hide_Snack_bar">
+        إخفاء
+    </string>
+
+    <string name="internet_connection_message">
+        لجعل بياناتك محدثة  يتوجب عليك الإتصال بالانترنت
+    </string>
+
+
+
+
+    <string name="tech_name">
+        مدرس المساق
+    </string>
+    <string name="hall_name">
+        رقم القاعة
+    </string>
+    <string name="event_time">
+        موعد المحاضرة
+    </string>
+    <string name="branch_no">
+        رقم الشعبة
+    </string>
+
+    <string name="adding_calender_title">
+  إضافة حدث
+    </string>
+
+    <string name="adding_calender_massage">
+        هل تريد إضافة الحدث في تقويم الهاتف
+    </string>
+
+
+    <string name="error_privilege_title">خطأ في صلاحية المستخدم</string>
+
+
+    <string name="error_privilege_message">لا توجد صلاحية لهذا الحساب الرجاء مراجعة مركز الحاسوب</string>
+
+
+    <string name="semester_hours">
+        الساعات المسجلة :
+    </string>
+    <string name="semester_succeed_hours">
+        ساعات النجاح :
+    </string>
+
+
+
+    <string name="setting">
+إعدادات
+</string>
+
+
+
+    <string name="log_out">
+    تسجيل خروج
+</string>
+
+
+
+    <string name="about">
+عن البرنامج
+</string>
+
+
+    <string name="notifications">
+    الإشعارات
+</string>
+
+    <string name="notification_setting_title">
+تفعيل الإشعارات
+</string>
+
+
+    <string name="notification_setting_summary">
+اشعاري في حالة حصول اي حدث في التطبيق
+</string>
+
+
+    <string name="key_icon">
+    مفتاح الرموز
+</string>
+
+
+
+
+    <string name="red_circle_hint_academic">
+تعني بأن موعد هذا الحدث قد انتهى
+</string>
+
+
+    <string name="green_circle_hint_academic">
+تعني بأن موعد هذا الحدث مازال مستمر
+</string>
+
+
+    <string name="red_circle_hint_mark">
+تعني بأن الطالب قد رسب في هذا المساق
+</string>
+
+
+    <string name="green_circle_hint_mark">
+تعني بأن الطالب قد نجح في هذا المساق
+</string>
+
+
+
+    <string name="yellow_circle_hint_mark">
+تعني بأن المساق لم ترصد درجته  أو لم يعتمد المساق بعد
+</string>
+    <string name="title_activity_leaderboard">LeaderboardActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_about">عن التطبيق</string>
+
+
+
+    <string name="about_ucas_academic_title">
+    يوفر تطبيق خدمات الطلبة الأكاديمية
+</string>
+
+
+    <string name="display_table_event">
+&#8226; عرض الجدول بشكل أسبوعي أو يومي للمحاضرات
+</string>
+
+    <string name="display_academic_calendar">
+&#8226; عرض التقويم الأكاديمي
+    </string>
+
+    <string name="display_transcript">
+&#8226; عرض كشف الدرجات لكل الفصول بالإضافة الى المعدل الفصلي والتراكمي
+    </string>
+
+    <string name="display_date_exam">
+&#8226; عرض مواعيد الإمتحانات
+    </string>
+    <string name="season_number">رقم الفصل :</string>
+    <string name="balance_of_the_student">رصيد الطالب:</string>
+    <string name="total_balance_of_the_student">رصيد الطالب العام:</string>
+    <string name="record_number">رقم السجل : </string>
+    <string name="debit">مدين</string>
+    <string name="credit">دائن</string>
+    <string name="date">التاريخ</string>
+    <string name="financial_student">الكشف المالي</string>
+    <string name="collage_news">مستجدات الكلية</string>
+    <string name="news_link">رابط الخبر</string>
+
+
+</resources>

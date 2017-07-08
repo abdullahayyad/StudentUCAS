@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_event_day"
+                android:icon="@drawable/ic_dark_event_day"
+                android:title="@string/event_day" />
+            <item
+                android:id="@+id/nav_week_view"
+                android:icon="@drawable/ic_dark_week_view"
+                android:title="@string/week_view" />
+            <item
+                android:id="@+id/nav_academic_calender"
+                android:icon="@drawable/ic_dark_acadmic_calender"
+                android:title="@string/academic_calender" />
+
+            <item
+                android:id="@+id/nav_marks"
+                android:icon="@drawable/ic_dark_marks"
+                android:title="@string/marks" />
+
+            <item
+                android:id="@+id/nav_exam_day"
+                android:icon="@drawable/ic_dark_exam_day"
+                android:title="@string/exam_day" />
+
+            <item
+                android:id="@+id/nav_financial"
+                android:icon="@drawable/ic_dark_financial"
+                android:title="@string/financial" />
+        </group>
+</menu>

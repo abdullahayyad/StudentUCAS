@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}"
+
+    android:id="@+id/splash_relative">
+
+    <LinearLayout
+
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+        android:orientation="vertical"
+
+        android:padding="16dp"
+
+        >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_above="@+id/textView1"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/phone_img" />
+
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_ucas_academic_title"
+        android:typeface="monospace"
+        android:layout_gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginBottom="10dp"
+
+        android:textColor="#006bb3"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="18dp"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/display_table_event"
+            android:typeface="monospace"
+            android:layout_gravity="right"
+            android:textSize="18sp"
+                    android:textColor="@android:color/white"
+            android:layout_marginBottom="5dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/display_transcript"
+            android:typeface="monospace"
+            android:layout_gravity="right"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="5dp"
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/display_academic_calendar"
+            android:typeface="monospace"
+            android:layout_gravity="right"
+            android:textSize="18sp"
+               android:textColor="@android:color/white"
+            android:layout_marginBottom="5dp"
+            />
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/display_date_exam"
+            android:typeface="monospace"
+            android:layout_gravity="right"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="5dp"
+            />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

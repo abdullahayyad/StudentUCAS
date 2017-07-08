@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginButtom">5dp</dimen>
+
+    <integer name="my_duration">5000</integer>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <dimen name="dialogPaddingTop">24dp</dimen>
+    <dimen name="dialogPaddingRight">24dp</dimen>
+    <dimen name="dialogPaddingLeft">24dp</dimen>
+    <dimen name="dialogMarginText">16dp</dimen>
+    <dimen name="dialogMarginBttonLeft">16dp</dimen>
+    <dimen name="dialogPaddingButtom">8dp</dimen>
+    <dimen name="buttonDialogHightSize">32dp</dimen>
+    <dimen name="marginHightBarButtonDialog">48dp</dimen>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ps.edu.ucas.studentportal.view.myRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/marginHightBarButtonDialog"
+    android:id="@+id/selected_background"
+    style="@style/Material.Drawable.Ripple.Wave.Light"
+
+
+    >
+
+
+
+    <CheckedTextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="right"
+
+        android:layout_centerVertical="true"
+        android:paddingRight="56dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="15dp"
+        android:text="test"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/image_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:paddingRight="16dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_dark_acadmic_calender"
+
+        />
+
+</ps.edu.ucas.studentportal.view.myRelativeLayout>

@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:id="@+id/splash_relative">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="iUCAS"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/white"
+
+        android:typeface="monospace"
+
+        android:layout_marginBottom="30dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/logo" />
+
+
+    <ImageButton
+        android:id="@+id/url_btn_web_site"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:src="@drawable/website_ic"
+        android:background="@null"
+        android:scaleType="fitXY"/>
+
+
+    <ImageButton
+        android:id="@+id/url_btn_moodle"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/textView1"
+        android:layout_toRightOf="@+id/url_btn_web_site"
+        android:layout_marginLeft="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:src="@drawable/ic_moodle"
+        android:background="@null"
+        android:scaleType="fitXY"/>
+
+    <ImageButton
+        android:id="@+id/url_btn_std_service"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/textView1"
+        android:layout_toLeftOf="@+id/url_btn_web_site"
+        android:layout_marginRight="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:src="@drawable/ic_std_service"
+        android:background="@null"
+        android:scaleType="fitXY"/>
+
+
+
+
+<!--
+    <ImageButton
+        android:id="@+id/facebook_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/url_btn"
+        android:layout_marginTop="3dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_facebook_button_selector"
+        android:background="@null"
+        android:scaleType="fitXY"/>
+-->
+</RelativeLayout>

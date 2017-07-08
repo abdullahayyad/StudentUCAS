@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+    >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/dialogPaddingButtom"
+            >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/dialogPaddingTop"
+        android:paddingRight="@dimen/dialogPaddingRight"
+        android:paddingLeft="@dimen/dialogPaddingLeft"
+        android:paddingBottom="@dimen/dialogMarginText"
+        android:gravity="right">
+
+
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/adding_calender_title"
+        android:textSize="18sp"
+        android:textStyle="bold"
+
+        />
+
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:gravity="right"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="message"
+        android:id="@+id/message_text" />
+
+    </LinearLayout>
+
+<View
+    android:layout_width="300dp"
+    android:layout_height="0dp">
+
+</View>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/marginHightBarButtonDialog"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/dialogMarginBttonLeft">
+    <Button
+
+        android:id="@+id/btn_agree"
+        android:layout_width="62dp"
+        android:layout_height="@dimen/buttonDialogHightSize"
+
+        android:layout_gravity="left"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/ok"
+
+        />
+    <View
+        android:layout_width="8dp"
+        android:layout_height="0dp"/>
+    <Button
+
+        android:id="@+id/btn_cancle"
+        android:layout_width="62dp"
+        android:layout_height="@dimen/buttonDialogHightSize"
+
+        android:layout_gravity="left"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/no"
+        android:textColor="@android:color/black"
+        />
+.</LinearLayout>
+
+        </LinearLayout>
+
+</LinearLayout>

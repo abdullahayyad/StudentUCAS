@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_settings" android:title="إعدادات الحساب"
+        android:orderInCategory="100" app:showAsAction="collapseActionView"
+        >
+        <!--android:icon="@drawable/abc_ic_menu_moreoverflow_mtrl_alpha"-->
+        <menu>
+
+
+            <item android:id="@+id/setting"
+                android:title="@string/setting" />
+
+            <item android:id="@+id/logout"
+                android:title="@string/log_out"/>
+
+            <item android:id="@+id/about"
+                android:title="@string/about" />
+
+        </menu>
+
+    </item>
+</menu>

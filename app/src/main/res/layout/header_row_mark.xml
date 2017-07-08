@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+    <LinearLayout
+        android:id="@+id/hintKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="right"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorPrimary"
+        android:visibility="gone"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/key_icon"
+            android:textSize="24sp"
+            android:textColor="@android:color/white"
+            android:padding="10dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            >
+
+            <View
+                android:id="@+id/myGreenCircle"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/shape_blue_circle"></View>
+            <TextView
+                android:layout_toLeftOf="@id/myGreenCircle"
+                android:layout_toRightOf="@+id/academic_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layout_marginRight="16dp"
+                android:layout_centerVertical="true"
+                android:textColor="@android:color/white"
+                android:text="@string/green_circle_hint_mark"
+                />
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            >
+
+            <View
+                android:id="@+id/myYellowCircle"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/shape_blue_circle"></View>
+            <TextView
+                android:layout_toLeftOf="@id/myYellowCircle"
+                android:layout_toRightOf="@+id/academic_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:textColor="@android:color/white"
+                android:layout_marginRight="16dp"
+                android:layout_centerVertical="true"
+                android:text="@string/yellow_circle_hint_mark"/>
+
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            >
+
+            <View
+                android:id="@+id/myRedCircle"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/shape_blue_circle"></View>
+            <TextView
+                android:layout_toLeftOf="@id/myRedCircle"
+                android:layout_toRightOf="@+id/academic_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:textColor="@android:color/white"
+                android:layout_marginRight="16dp"
+                android:layout_centerVertical="true"
+                android:text="@string/red_circle_hint_mark"/>
+
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="المعدل الفصلي :"
+        android:id="@+id/season_lbl"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textColor="@android:color/white"
+
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+    android:layout_marginBottom="10dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="50.00%"
+        android:id="@+id/semestar_gpa"
+
+        android:textSize="14sp"
+        android:layout_toLeftOf="@id/season_lbl"
+        android:layout_alignBaseline="@+id/season_lbl"
+        android:textColor="@android:color/white"
+        android:maxLines="2"
+        android:layout_marginBottom="5dp"
+        />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="50.00%"
+        android:id="@+id/student_gpa"
+
+        android:textSize="14sp"
+
+        android:textColor="@android:color/white"
+
+        android:layout_alignParentLeft="true"
+        android:maxLines="2"
+        android:layout_marginBottom="5dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="المعدل التراكمي :"
+        android:id="@+id/lbl_gpa"
+
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/student_gpa"
+        android:layout_marginLeft="5dp"
+        android:maxLines="2"
+        android:layout_marginBottom="5dp"
+        android:textColor="@android:color/white"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/semester_hours"
+        android:id="@+id/semester_hours_lbl"
+        android:layout_below="@+id/season_lbl"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textColor="@android:color/white"
+
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="16"
+        android:id="@+id/semester_hours"
+        android:layout_below="@+id/season_lbl"
+        android:textSize="14sp"
+        android:layout_toLeftOf="@id/semester_hours_lbl"
+        android:layout_alignBaseline="@+id/semester_hours_lbl"
+        android:textColor="@android:color/white"
+        android:maxLines="2"
+        android:layout_marginBottom="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="16"
+        android:id="@+id/semester_succeed"
+        android:layout_below="@+id/season_lbl"
+        android:textSize="14sp"
+
+        android:textColor="@android:color/white"
+
+        android:layout_alignParentLeft="true"
+        android:maxLines="2"
+        android:layout_marginBottom="5dp"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/semester_succeed_hours"
+        android:id="@+id/semester_succeed_hours_lbl"
+        android:layout_below="@+id/season_lbl"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/semester_succeed"
+        android:layout_marginLeft="5dp"
+        android:maxLines="2"
+        android:layout_marginBottom="5dp"
+        android:textColor="@android:color/white"
+        />
+
+
+
+
+</RelativeLayout>
+
+</LinearLayout>

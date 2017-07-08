@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0a4e96</color>
+    <color name="colorPrimaryDark">#06408a</color>
+    <color name="colorAccent">#0a4e96</color>
+
+
+    <color name="toolbar_text">#8f000000</color>
+    <color name="accent">#FFC1C1C1</color>
+    <color name="toolbar">#efefef</color>
+
+
+
+    <color name="myBackground">#f1f1f1</color>
+
+
+    <color name="one">#997B1FA2</color>
+    <color name="two">#99D32F2F</color>
+    <color name="three">#991976D2</color>
+    <color name="four">#99512DA8</color>
+    <color name="five">#9900796B</color>
+    <color name="six">#990288D1</color>
+    <color name="seven">#99689F38</color>
+    <color name="eight">#99616161</color>
+    <color name="nine">#99E64A19</color>
+    <color name="ten">#995D4037</color>
+
+    <color name="pass">#99689F38</color>
+    <color name="failed">#99D32F2F</color>
+    <color name="exception">#99FFEB3B</color>
+
+
+
+    <color name="warning_transcript">#1f00</color>
+    <color name="alarm_transcript">#1ff0</color>
+    <color name="message_transcript">#10a0</color>
+
+
+
+
+
+</resources>

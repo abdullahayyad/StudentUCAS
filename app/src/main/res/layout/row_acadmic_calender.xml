@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+
+    >
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <ps.edu.ucas.portal.view.MyLinearLayout
+            android:id="@+id/myLinear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Material.Drawable.Ripple.Wave.Light"
+            android:focusable="false"
+
+            >
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:id="@+id/academic_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:orientation="vertical"
+            android:layout_marginRight="16dp"
+            >
+            <TextView
+                android:id="@+id/day_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="36sp"
+                android:text="15"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/month"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="نوفمبر"
+                />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/mycircleView"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/shape_circle"></View>
+        <TextView
+            android:layout_toLeftOf="@id/mycircleView"
+            android:layout_toRightOf="@+id/academic_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_detail"
+            android:gravity="right"
+            android:layout_marginRight="16dp"
+            android:layout_centerVertical="true"
+            android:text="آخر موعد لتسليم نتائج امتحانات الفصل الصيفي 2014 - 2015"/>
+
+    </RelativeLayout>
+        </ps.edu.ucas.portal.view.MyLinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

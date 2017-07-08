@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:id="@+id/my_secroll_dashboard"
+    android:clickable="true"
+   >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            >
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin">
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/timer"
+                    android:padding="@dimen/activity_horizontal_margin">
+
+
+                    <DigitalClock
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/digitalClock"
+                        android:layout_alignParentTop="true"
+
+                        android:layout_centerHorizontal="true"
+                        android:textSize="32sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="الخميس 13 آب 2015"
+                        android:id="@+id/currentDate"
+                        android:layout_below="@+id/digitalClock"
+                        android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:id="@+id/present_event"
+                android:visibility="visible"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                android:layout_height="wrap_content">
+                <!-- A photo on the left. We'll just use the launcher icon. -->
+                <ps.edu.ucas.portal.view.MyLinearLayout
+                    android:id="@+id/myLinear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Material.Drawable.Ripple.Wave.Light"
+                    android:focusable="false"
+
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="16dp"
+                        android:paddingLeft="16dp"
+                        android:paddingTop="16dp"
+
+                        android:paddingBottom="16dp">
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:background ="@drawable/shape_circle"
+                            android:id="@+id/myHour"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentRight="true"
+                            android:text="12"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="16dp"
+                            android:textColor="#fff"
+                            ></TextView>
+
+
+                        <!-- The age, in the bottom -->
+                        <TextView
+                            android:id="@+id/event_time"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_toLeftOf="@+id/myHour"
+                            android:gravity="right"
+                            android:text="Time"
+                            />
+
+
+
+
+
+
+                        <!-- The person name, on top -->
+                        <TextView
+                            android:id="@+id/event_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:layout_toLeftOf="@+id/myHour"
+                            android:layout_below="@+id/event_time"
+                            android:textSize="18sp"
+                            android:text="Courses"
+                            />
+
+
+                        <!-- The age, in the bottom -->
+                        <TextView
+                            android:id="@+id/event_hall_lbl"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_toLeftOf="@+id/myHour"
+                            android:layout_below="@+id/event_name"
+                            android:text=" قاعة : "
+                            />
+
+
+
+                        <!-- The age, in the bottom -->
+                        <TextView
+                            android:id="@+id/event_hall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_toLeftOf="@+id/event_hall_lbl"
+                            android:layout_below="@+id/event_name"
+                            android:text="hall"
+                            />
+
+
+
+
+                    </RelativeLayout>
+
+                </ps.edu.ucas.portal.view.MyLinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/student_profile_dashboard" />
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="490dp"
+                layout="@layout/student_navigation_layout"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>

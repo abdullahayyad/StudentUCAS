@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/loginActivity"
+        android:id="@+id/log_in_btn"
+        android:drawablePadding="-40dp"
+        android:drawableRight="@drawable/ic_login"
+        android:layout_weight="0.5"
+        android:textColor="#FFF"
+        android:background="@drawable/selector_button_blue"
+
+        android:layout_margin="3dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+
+        <Button
+            android:background="@drawable/selector_button_blue"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/about"
+            android:id="@+id/about_btn"
+            android:layout_weight="0.5"
+            android:drawableTop="@drawable/ic_about"
+            android:textColor="#FFF"
+            android:layout_margin="3dp"
+            />
+
+        <Button
+            android:background="@drawable/selector_button_blue"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/academic_calender"
+            android:drawableTop="@drawable/ic_academic_calendar"
+            android:id="@+id/academic_calender"
+            android:layout_weight="0.5"
+            android:textColor="#FFF"
+            android:layout_margin="3dp"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/collage_news"
+        android:id="@+id/news_btn"
+        android:drawablePadding="-40dp"
+        android:drawableRight="@drawable/ic_news_l"
+        android:layout_weight="0.5"
+        android:textColor="#FFF"
+        android:background="@drawable/selector_button_blue"
+
+        android:layout_margin="3dp"/>
+
+</LinearLayout>
